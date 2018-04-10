@@ -23,7 +23,6 @@ public class TrackingPageController {
 		String email = request.getParameter("email");
 		System.out.println(email);
 		response.addHeader("Access-Control-Allow-Methods" , "POST,GET,OPTIONS,PUT,DELETE");
-		
 		response.addHeader("Access-Control-Allow-Origin", "*");
 		return email;
 	}
